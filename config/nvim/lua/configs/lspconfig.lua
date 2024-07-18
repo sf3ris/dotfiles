@@ -1,4 +1,4 @@
-local config = require("plugins.configs.lspconfig")
+local config = require("nvchad.configs.lspconfig")
 local on_attach = config.on_attach
 local capabilities = config.capabilities
 
@@ -52,4 +52,3 @@ lspconfig.elixirls.setup {
   cmd = { "/Users/administrator/.config/elixir-ls/language_server.sh" },
   on_attach = on_attach
 }
-

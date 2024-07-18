@@ -4,7 +4,7 @@ backup_dir=~/dotfiles_backup
 echo "Cleaning up backup directory"
 rm -rf $backup_dir/*
 
-files="zshrc config/nvim/templates config/nvim/lua tmux.conf tmux/plugins yabairc skhdrc"
+files="zshrc config/nvim/templates config/nvim tmux.conf tmux/plugins yabairc skhdrc"
 current_dir=$(pwd)
 
 echo "Creating $backup_dir to backup current dotfiles"
